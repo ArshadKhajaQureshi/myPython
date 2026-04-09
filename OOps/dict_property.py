@@ -43,3 +43,8 @@ class A:
 print(A.__dict__)
 a1=A()
 print(a1.__dict__)
+
+# A.__dict__ contains:
+# class variables → x
+# methods → method
+# internal attributes → __dict__, __weakref__, etc.
