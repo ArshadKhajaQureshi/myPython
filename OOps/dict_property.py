@@ -48,3 +48,7 @@ print(a1.__dict__)
 # class variables → x
 # methods → method
 # internal attributes → __dict__, __weakref__, etc.
+
+# example
+def login():
+    print("Login working")
